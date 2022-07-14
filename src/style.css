@@ -1,0 +1,31 @@
+html, body {
+    height: 100hv;
+    width: 100wv;
+  }
+  
+  button {
+    background-color: #9446a7;
+    box-shadow: 4px 5px 5px 1px rgba(0,0,0,0.2);
+    border-color: transparent;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    box-align: center;
+  }
+  
+  .contendorPrincipal {
+    background-image: linear-gradient(290deg, #15255b, #babef2);
+    padding: 100px;
+    
+  }
+  
+  #gruposPrincipales {
+    visibility: hidden;
+  }
+  #codificarMensaje {
+    visibility: visible;
+  }
+
+  .tema {
+    text-align: center;
+  }
