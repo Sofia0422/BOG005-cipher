@@ -9,13 +9,13 @@
     <div class="contenedorPrincipales">
       <h1 class="tema">CENTRO DE MENSAJERIA AREA 51</h1>
       <form>
-        <div id "gruposPrincipales">
-          <p><button type="button" onclick ="mostrarCodificarMensaje();" id="investigacion">INVESTIGACION</button>
-            <button type= "button" onclick ="mostrarCodificarMensaje();" id="avistamientos">AVISTAMIENTOS</button>
-            <button type= "button" onclick ="mostrarCodificarMensaje();" id="pruebas militares">PRUEBAS MILITARES</button>
-          </p>
-        </div>
-        <div id "codificarMensaje">
+          <div id= "gruposPrincipales">
+          <button id="botonGP">INVESTIGACION</button>
+            <button id="botonGP">AVISTAMIENTOS</button>
+            <button id="botonGP">PRUEBAS MILITARES</button>
+          </div>
+        
+        <div id="codificarMensaje">
           <h3>INGRESA EL MENSAJE</h3>
           <p><input type="text" id="mensaje"/></p>
           <h3>DESPLAZAMIENTO</h3>
@@ -23,7 +23,8 @@
           <p><button type="button" id="codificar">Codificar</button>
             <button type="button" id="decodificar">Decodificar</button></p>
           <h3>MENSAJE CODIFICADO / DECODIFICADO</h3>  
-          <P><input type="text" id="mensaje2"/></P>          
+          <P><input type="text" id="mensaje2"/></P>    
+          <button id="inicio" onclick = "volerInicio();">VOLVER AL INICIO</button>      
         </div>
     </form>
     </div>

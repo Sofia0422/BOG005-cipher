@@ -11,6 +11,7 @@ html, body {
     color: white;
     margin-top: 10px;
     box-align: center;
+    
   }
   
   .contendorPrincipal {
@@ -19,13 +20,12 @@ html, body {
     
   }
   
-  #gruposPrincipales {
-    visibility: hidden;
-  }
   #codificarMensaje {
-    visibility: visible;
+    display: none;
+  } 
+  #gruposPirncipales {
+    display: block;
   }
-
   .tema {
     text-align: center;
   }
