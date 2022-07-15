@@ -20,12 +20,16 @@ html, body {
     
   }
   
-  #codificarMensaje {
-    display: none;
-  } 
-  #gruposPirncipales {
+  .gruposPrincipales {
     display: block;
   }
+  .codificarMensaje {
+    display: block;
+  }
+  .inicio {
+    display: block;
+  }
+
   .tema {
     text-align: center;
   }
