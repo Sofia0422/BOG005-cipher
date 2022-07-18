@@ -20,14 +20,11 @@ html, body {
     
   }
   
-  .gruposPrincipales {
-    display: block;
+  #codificarMensaje {
+    display: none;
   }
-  .codificarMensaje {
-    display: block;
-  }
-  .inicio {
-    display: block;
+  #inicio {
+    display: none;
   }
 
   .tema {
