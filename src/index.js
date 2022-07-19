@@ -1,8 +1,3 @@
-//Ejecutar código de cifrado
-import cipher from './cipher.js';
-
-console.log(cipher);
-
 //Hacer visible sección para codificar mensajes y ocultar sección grupos principales
 
 let botonGP1 = document.getElementById("botonGP1");
@@ -30,8 +25,56 @@ function mostrarGruposPrincipales(){
         document.getElementById ("gruposPrincipales").style.display = "block";
         
 }
+//Añadir funcionalidad al boton codificar //Construyes tu funcion codificar
+/*let cod = document.getElementById("codificar");
+cod.addEventListener ("click", codificarMensaje);
 
-//Añadir funcionalidad al boton codificar
-//Construyes tu funcion codificar
-// Capturas el valor del input mensaje y del input desplazamiento
+function codificarMensaje(){
+    alert("Hola");
+}*/
 
+//Mostrar Mensaje en mayúsculas
+window.addEventListener("load",escribirMensaje, true);
+
+function escribirMensaje () {
+    document.getElementById("mensaje").addEventListener("keyup", function(){
+        this.value = this.value.toUpperCase();
+    });
+}
+
+//Capturas el valor del input mensaje y del input desplazamiento
+
+document.getElementsById("codificar").addEventListener("click", function (){
+    let texto = document.getElementById("mensaje").value;
+    let desplazamiento = document.getElementById("desplazamiento").value;
+    document.getElementById("mensaje2").value = codificar(texto, desplazamiento);}, true);
+
+document.getElementsById("decodificar").addEventListener("click", function (){
+    let texto = document.getElementById("mensaje").value;
+    let desplazamiento = document.getElementById("desplazamiento").value;
+    document.getElementById("mensaje2").value = decodificar(texto, desplazamiento);}, true);
+
+// Ejecutar código de cifrado-prueba
+
+function codificar (texto, desplazamiento){
+    let resultado = "";
+    const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    desplazamiento = (desplazamiento % 26 + 26) % 26;
+    if (texto) {
+        for (let i = 0; i<texto.length; i ++) {
+            if (letras.indexOf(texto[i])!=-1){
+                let posicion = ((letras.indexOf(texto[i])+desplazamiento)%26);
+                resultado += letras[posicion];
+            }
+            else 
+            resultado += texto[i];
+        }
+    }
+    return resultado;
+}
+
+
+//Ejecutar código de cifrado
+import cipher from './cipher.js';
+
+console.log(cipher);
