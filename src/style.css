@@ -1,8 +1,12 @@
+
+
 html, body {
     height: 100hv;
     width: 100wv;
+    background-image: url ("");
   }
-  
+
+
   button {
     background-color: #9446a7;
     box-shadow: 4px 5px 5px 1px rgba(0,0,0,0.2);

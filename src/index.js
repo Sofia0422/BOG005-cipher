@@ -54,27 +54,8 @@ document.getElementsById("decodificar").addEventListener("click", function (){
     let desplazamiento = document.getElementById("desplazamiento").value;
     document.getElementById("mensaje2").value = decodificar(texto, desplazamiento);}, true);
 
-// Ejecutar código de cifrado-prueba
 
-function codificar (texto, desplazamiento){
-    let resultado = "";
-    const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    desplazamiento = (desplazamiento % 26 + 26) % 26;
-    if (texto) {
-        for (let i = 0; i<texto.length; i ++) {
-            if (letras.indexOf(texto[i])!=-1){
-                let posicion = ((letras.indexOf(texto[i])+desplazamiento)%26);
-                resultado += letras[posicion];
-            }
-            else 
-            resultado += texto[i];
-        }
-    }
-    return resultado;
-}
-
-
-//Ejecutar código de cifrado
+    //Ejecutar código de cifrado
 import cipher from './cipher.js';
 
 console.log(cipher);
