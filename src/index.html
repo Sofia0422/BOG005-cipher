@@ -7,8 +7,9 @@
   </head>
   <body>
     <div class="contenedorPrincipales">
-      <h1 class="tema">CENTRO DE MENSAJERIA ÁREA 51</h1>
-          
+      <h1 class="tema">CENTRO DE MENSAJERÍA ÁREA 51</h1>
+        <div id="bienvenida"><p>!Bienvenido! Para realizar la codificación de tu mensaje, primero selecciona el área de interes. Recuerda ten a la mano el número de desplazamiento asignado a tu usuario.</p>
+        </div>
         <div id= "gruposPrincipales" class="gruposPrincipales">
           <button id="botonGP1" class="botonGP1">INVESTIGACIÓN</button>
           <button id="botonGP2" class="botonGP2">AVISTAMIENTOS</button>
@@ -16,17 +17,19 @@
         </div>     
 
         <div id="codificarMensaje" class="codificarMensaje">
-          <h3>INGRESA EL MENSAJE</h3>
-          <p><input type="text" id="mensaje"/></p>
-          <h3>DESPLAZAMIENTO</h3>
-          <p><input type="number" id="desplazamiento" size=4/></p>
-          <p><button type="button" id="codificar">Codificar</button>
-            <button type="button" id="decodificar">Decodificar</button></p>
-          <h3>MENSAJE CODIFICADO / DECODIFICADO</h3>  
+          <h3 class ="ingresaelmensaje">INGRESA EL MENSAJE</h3>
+          <p><input type="text" id="mensaje"/></p> 
+          <h3 class="desplazamiento">DESPLAZAMIENTO</h3>
+          <p><input type="number" id="desplazamiento"></p>
+          
+          <p><button type="button" id="codificar">CODIFICAR</button>
+            <button type="button" id="decodificar">DECODIFICAR</button></p>
+            <br>
+          <h3 class="mensajecod">MENSAJE CODIFICADO / DECODIFICADO</h3>  
           <P><input type="text" id="mensaje2"/></P>     
         </div>
 
-          <button class="inicio" id="inicio">INICIO</button> 
+          <button class="inicio" id="inicio">VOLVER AL INICIO</button> 
       
     </div>
     
