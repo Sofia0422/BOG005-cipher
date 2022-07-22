@@ -1,3 +1,9 @@
+  //Ejecutar código de cifrado
+  import cipher from './cipher.js';
+
+  console.log(cipher);
+
+
 //Hacer visible sección para codificar mensajes y ocultar sección grupos principales
 
 let botonGP1 = document.getElementById("botonGP1");
@@ -53,9 +59,3 @@ document.getElementsById("decodificar").addEventListener("click", function (){
     let texto = document.getElementById("mensaje").value;
     let desplazamiento = document.getElementById("desplazamiento").value;
     document.getElementById("mensaje2").value = decodificar(texto, desplazamiento);}, true);
-
-
-    //Ejecutar código de cifrado
-import cipher from './cipher.js';
-
-console.log(cipher);
