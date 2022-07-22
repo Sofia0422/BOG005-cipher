@@ -8,17 +8,16 @@ export default cipher;
 
 function codificar (texto, desplazamiento){
   let resultado = "";
-  const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  desplazamiento = (desplazamiento % 26 + 26) % 26;
+  const abecedario = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  /*desplazamiento = (desplazamiento % 26 + 26) % 26*/
   if (texto) {
-      for (let i = 0; i<texto.length; i ++) {
-          if (letras.indexOf(texto[i])!=-1){
-              let posicion = ((letras.indexOf(texto[i])+desplazamiento)%26);
-              resultado += letras[posicion];
+      for (let i = 0; i< texto.length; i ++) {
+          
+              let posicion = ((abecedario.indexOf(texto[i])+desplazamiento));
+              resultado += abecedario[posicion];
           }
-          else 
-          resultado += texto[i];
-      }
+          
+      
   }
   return resultado;
 }
