@@ -42,16 +42,16 @@ function escribirMensaje () {
 
 let botonCodificar = document.getElementById("codificar");
 botonCodificar.addEventListener("click", function (){
-    let mensaje = document.getElementById("mensaje").value.toUpperCase();
     let desplazamiento = document.getElementById("desplazamiento").value;
-    document.getElementById("mensaje2").value = cipher.encode (mensaje, parseInt(desplazamiento));    
+    let mensaje = document.getElementById("mensaje").value.toUpperCase();   
+    document.getElementById("mensaje2").value = cipher.encode (parseInt(desplazamiento), mensaje);    
     });
 
 let botonDecodificar = document.getElementById("decodificar");
 botonDecodificar.addEventListener("click", function (){
-    let mensaje = document.getElementById("mensaje").value.toUpperCase();
     let desplazamiento = document.getElementById("desplazamiento").value;
-    document.getElementById("mensaje2").value = cipher.decode (mensaje, parseInt(desplazamiento));    
+    let mensaje = document.getElementById("mensaje").value.toUpperCase();    
+    document.getElementById("mensaje2").value = cipher.decode (parseInt(desplazamiento), mensaje);    
     });
 
 

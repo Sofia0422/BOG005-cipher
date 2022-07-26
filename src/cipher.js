@@ -1,23 +1,23 @@
 const cipher = {
-  encode: function (mensaje, desplazamiento){  
-    if(!mensaje || !desplazamiento) {
+  encode: function (desplazamiento, mensaje){  
+    if(!desplazamiento || !mensaje ) {
       throw new TypeError ("Valores Invalidos");
     } 
     let resultado = ""; 
-    if (mensaje) {
       for (let i =0; i < mensaje.length; i++) {  
+        // verificar si es un espacio
+        // si es un espacio no codifiques y concatenar directo al resulto
+        // si no es un espacio codificar
         let mensajeCodificado =((mensaje.charCodeAt([i])-65 + desplazamiento) %26 + 65);
-        resultado += String.fromCharCode (mensajeCodificado);  
-                          
+        resultado += String.fromCharCode (mensajeCodificado);                            
       } 
-    }      
-                 
+                         
     return resultado;  
   },
                 
       
-  decode: function (mensaje, desplazamiento){
-    if(!mensaje || !desplazamiento) {
+  decode: function (desplazamiento, mensaje){
+    if(!desplazamiento || !mensaje) {
       throw new TypeError ("Valores Invalidos");
     }
     let resultado = "";    
