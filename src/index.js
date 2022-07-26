@@ -1,9 +1,4 @@
-  //Ejecutar código de cifrado
-  import cipher from './cipher.js';
-
-  console.log(cipher);
-
-
+ 
 //Hacer visible sección para codificar mensajes y ocultar sección grupos principales
 
 let botonGP1 = document.getElementById("botonGP1");
@@ -31,13 +26,6 @@ function mostrarGruposPrincipales(){
         document.getElementById ("gruposPrincipales").style.display = "block";
         
 }
-//Añadir funcionalidad al boton codificar //Construyes tu funcion codificar
-/*let cod = document.getElementById("codificar");
-cod.addEventListener ("click", codificarMensaje);
-
-function codificarMensaje(){
-    alert("Hola");
-}*/
 
 //Mostrar Mensaje en mayúsculas
 window.addEventListener("load",escribirMensaje, true);
@@ -49,13 +37,22 @@ function escribirMensaje () {
 }
 
 //Capturas el valor del input mensaje y del input desplazamiento
+ //Ejecutar código de cifrado
+ import cipher from './cipher.js';
 
-document.getElementsById("codificar").addEventListener("click", function (){
-    let texto = document.getElementById("mensaje").value;
+let botonCodificar = document.getElementById("codificar");
+botonCodificar.addEventListener("click", function (){
+    let mensaje = document.getElementById("mensaje").value.toUpperCase();
     let desplazamiento = document.getElementById("desplazamiento").value;
-    document.getElementById("mensaje2").value = codificar(texto, desplazamiento);}, true);
+    document.getElementById("mensaje2").value = cipher.encode (mensaje, parseInt(desplazamiento));    
+    });
 
-document.getElementsById("decodificar").addEventListener("click", function (){
-    let texto = document.getElementById("mensaje").value;
+let botonDecodificar = document.getElementById("decodificar");
+botonDecodificar.addEventListener("click", function (){
+    let mensaje = document.getElementById("mensaje").value.toUpperCase();
     let desplazamiento = document.getElementById("desplazamiento").value;
-    document.getElementById("mensaje2").value = decodificar(texto, desplazamiento);}, true);
+    document.getElementById("mensaje2").value = cipher.decode (mensaje, parseInt(desplazamiento));    
+    });
+
+
+    console.log(cipher);

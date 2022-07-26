@@ -1,22 +1,31 @@
 const cipher = {
   encode: function (mensaje, desplazamiento){    
     let resultado = "";    
-    let formula = ((resultado - 65 + desplazamiento) %26) + 65;     
-      for (let i =0; i < mensaje.length; i++) {
-       
-              
-    }
+    for (let i =0; i < mensaje.length; i++) {
+       let mensajeCodificado = ((mensaje.charCodeAt(i)-65 + desplazamiento) %26 + 65); 
+           resultado += String.fromCharCode (mensajeCodificado);    
+    }          
+      
+      return resultado;   
+      
   },
+ 
 
-  decode: function (desplazamiento, mensaje) {
-
+  decode: function (mensaje, desplazamiento){
+    let resultado = "";    
+    for (let i =0; i < mensaje.length; i++) {
+      let mensajeDecodificado = ((mensaje.charCodeAt(i)+65 - desplazamiento) %26 + 65); 
+      resultado += String.fromCharCode (mensajeDecodificado);             
+    }
+      return resultado;   
+      
   }
-  
+   
 };
 
 export default cipher;
 
-
+// Ejecutar código de cifrado-prueba
 /*const cipher = {
   encode: function (desplazamiento, mensaje){
     let resultado = "";
@@ -53,25 +62,3 @@ export default cipher;
 };
 
 export default cipher;*/
-
-
-
-
-
-// Ejecutar código de cifrado-prueba
-
-/*function codificar (texto, desplazamiento){
-  let resultado = "";
-  const abecedario = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  /*desplazamiento = (desplazamiento % 26 + 26) % 26*/
-  /*if (texto) {
-      for (let i = 0; i< texto.length; i ++) {
-          
-              let posicion = ((abecedario.indexOf(texto[i])+desplazamiento));
-              resultado += abecedario[posicion];
-          }
-          
-      
-  }
-  return resultado;
-}*/

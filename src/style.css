@@ -82,6 +82,7 @@ body {
     .desplazamiento {
       margin-left: 220px;
       
+      
     }
     
     #desplazamiento {
@@ -93,12 +94,14 @@ body {
 
     .mensajecod {
       margin-left: 140px;
+      margin-top: 80px;
     }
 
     #mensaje2 {
       padding: 20px 50px;
       margin-left: 170px;
       background-color:rgb(214, 210, 210);
+      text-align: center;
     }
   
   .inicio {
