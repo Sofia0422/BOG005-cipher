@@ -1,17 +1,25 @@
 const cipher = {
-  encode: function (mensaje, desplazamiento){    
-    let resultado = "";    
-    for (let i =0; i < mensaje.length; i++) {
-       let mensajeCodificado = ((mensaje.charCodeAt(i)-65 + desplazamiento) %26 + 65); 
-           resultado += String.fromCharCode (mensajeCodificado);    
-    }          
-      
-      return resultado;   
-      
+  encode: function (mensaje, desplazamiento){  
+    if(!mensaje || !desplazamiento) {
+      throw new TypeError ("Valores Invalidos");
+    } 
+    let resultado = ""; 
+    if (mensaje) {
+      for (let i =0; i < mensaje.length; i++) {  
+        let mensajeCodificado =((mensaje.charCodeAt([i])-65 + desplazamiento) %26 + 65);
+        resultado += String.fromCharCode (mensajeCodificado);  
+                          
+      } 
+    }      
+                 
+    return resultado;  
   },
- 
-
+                
+      
   decode: function (mensaje, desplazamiento){
+    if(!mensaje || !desplazamiento) {
+      throw new TypeError ("Valores Invalidos");
+    }
     let resultado = "";    
     for (let i =0; i < mensaje.length; i++) {
       let mensajeDecodificado = ((mensaje.charCodeAt(i)+65 - desplazamiento) %26 + 65); 
