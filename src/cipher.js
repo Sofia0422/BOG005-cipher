@@ -1,27 +1,66 @@
 const cipher = {
-  encode: function (desplazamiento, mensaje){  
-    if(!desplazamiento || !mensaje ) {
-      throw new TypeError ("Valores Invalidos");
-    } 
-    let resultado = ""; 
-      for (let i =0; i < mensaje.length; i++) {  
+//Definición de función para codificar el mensaje  
+    encode: function (desplazamiento, mensaje){   
+    let resultado = "";  
+//Uso de condicionales para la validación de test TypeError  
+      if(desplazamiento == "" && mensaje == ""){
+        throw new TypeError();
+      }
+
+      if(desplazamiento == 0 || mensaje == 0){
+        throw new TypeError();
+      } 
+
+      if(desplazamiento == null && mensaje == []){
+        throw new TypeError();
+      }
+
+      if(desplazamiento == 0 && mensaje == 0){
+        throw new TypeError();
+      }
+//Definición de ciclo for (inicialización, condicional, expresion final y declaración) para el recorrido del mensaje aplicando formula
+      for (let i =0; i < mensaje.length; i++) { 
+        let espacios; 
+        if (mensaje.length !== " ") {
+          let mensajeCodificado =((mensaje.charCodeAt(i)-65 + desplazamiento) %26 + 65);
+        resultado += String.fromCharCode (mensajeCodificado); 
+        } else if(mensaje.length == " ") {
+          espacios = mensaje.charCodeAt(32);
+          espacios = String.fromCharCode(32);
+          resultado += espacios;
+        }
         // verificar si es un espacio
         // si es un espacio no codifiques y concatenar directo al resulto
         // si no es un espacio codificar
-        let mensajeCodificado =((mensaje.charCodeAt([i])-65 + desplazamiento) %26 + 65);
-        resultado += String.fromCharCode (mensajeCodificado);                            
+                                   
       } 
                          
     return resultado;  
   },
                 
-      
-  decode: function (desplazamiento, mensaje){
-    if(!desplazamiento || !mensaje) {
-      throw new TypeError ("Valores Invalidos");
-    }
+//Definición de función para decodificar el mensaje       
+  decode: function (desplazamiento, mensaje){      
     let resultado = "";    
+//Uso de condicionales para la validación de test TypeError  
+      if(desplazamiento == "" && mensaje == ""){
+        throw new TypeError();
+      }
+
+      if(desplazamiento == 0 || mensaje == 0){
+        throw new TypeError();
+      } 
+
+      if(desplazamiento == null && mensaje == []){
+        throw new TypeError();
+      }
+
+      if(desplazamiento == 0 && mensaje == 0){
+        throw new TypeError();
+      }    
+
+//Definición de ciclo for (inicialización, condicional, expresion final y declaración) para el recorrido del mensaje aplicando formula     
     for (let i =0; i < mensaje.length; i++) {
+      
       let mensajeDecodificado = ((mensaje.charCodeAt(i)+65 - desplazamiento) %26 + 65); 
       resultado += String.fromCharCode (mensajeDecodificado);             
     }
