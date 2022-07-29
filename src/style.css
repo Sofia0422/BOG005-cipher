@@ -6,23 +6,33 @@ body {
     image-rendering: optimizeQuality;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     
+    
   }
 
   #bienvenida p 
-    {padding-top: 10px;
+    {
     color: white;
     text-align: left;
-    width: 700px;
+    width: 600px;
     font-size: 1.3em;
     text-align: justify;
-    padding: 10px 10px;  
+    
 
   }
   
- 
+  .instrucciones{
+    margin-top: 50px;
+    background-color: rgb(95, 147, 160);
+    width: 600px;
+    padding: 20px 20px;
+    text-align:justify;
+    color: white;
+    border-radius: 10px;
+    
+  }
   
   button {
-    background-color: #525e5c;
+    background-color: #0f4f6d;
     box-shadow: 4px 5px 5px 1px rgba(0,0,0,0.2);
     border-color: transparent;
     border-radius: 10px;
@@ -32,9 +42,13 @@ body {
     box-align: center;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     padding: 20px 50px;
-    font-weight: bold;
-    
+    font-weight: bold;    
   }
+
+  button:hover {
+    background-color: rgb(10, 101, 129);
+
+  }  
   
   .gruposPrincipales {
     margin-top: 100px;
@@ -61,14 +75,21 @@ body {
       margin-top: 60px;
       margin-left: 140px;
       padding: 10px 30px;
+      background-color: rgb(12, 165, 58);
     }
+    #codificar:hover {
+      background-color: rgb(13, 104, 61);
 
+    }    
+
+ 
     #decodificar {
     margin-top: 60px;
     margin-left: 50px;
     padding: 10px 30px;
   }
 
+   
     .ingresaelmensaje {
       margin-left: 250px;
     }
@@ -109,8 +130,8 @@ body {
     margin-top: 100px;
     margin-left: 210px;
     padding: 10px 30px;
-    font-size: 1.3rem;
-      
+    font-size: 1.1rem;
+        
     
   }
 
