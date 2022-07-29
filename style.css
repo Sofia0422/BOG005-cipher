@@ -1,0 +1,138 @@
+
+body {
+    background-image: url("img/extra1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    image-rendering: optimizeQuality;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    
+    
+  }
+
+  #bienvenida p 
+    {
+    color: white;
+    text-align: left;
+    width: 600px;
+    font-size: 1.3em;
+    text-align: justify;
+    
+
+  }
+  
+  .instrucciones{
+    margin-top: 50px;
+    background-color: rgb(95, 147, 160);
+    width: 600px;
+    padding: 20px 20px;
+    text-align:justify;
+    color: white;
+    border-radius: 10px;
+    
+  }
+  
+  button {
+    background-color: #0f4f6d;
+    box-shadow: 4px 5px 5px 1px rgba(0,0,0,0.2);
+    border-color: transparent;
+    border-radius: 10px;
+    color: white;
+    margin-left: 250px;
+    margin-top: 150px;
+    box-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    padding: 20px 50px;
+    font-weight: bold;    
+  }
+
+  button:hover {
+    background-color: rgb(10, 101, 129);
+
+  }  
+  
+  .gruposPrincipales {
+    margin-top: 100px;
+    margin-left: 50px;
+    
+  }
+
+  .tema {
+    color: rgb(216, 228, 228);
+    margin-top: 60px;
+    margin-left: 60px;
+    text-align: left;
+   
+  }
+
+  .codificarMensaje {
+    display: none;
+    color: rgb(191, 218, 218);
+    margin-top: 80px;
+    text-align: left;
+    
+  }
+    #codificar {
+      margin-top: 60px;
+      margin-left: 140px;
+      padding: 10px 30px;
+      background-color: rgb(12, 165, 58);
+    }
+    #codificar:hover {
+      background-color: rgb(13, 104, 61);
+
+    }    
+
+ 
+    #decodificar {
+    margin-top: 60px;
+    margin-left: 50px;
+    padding: 10px 30px;
+  }
+
+   
+    .ingresaelmensaje {
+      margin-left: 250px;
+    }
+    #mensaje {
+      padding: 20px 50px;
+      margin-left: 170px;
+      background-color:rgb(214, 210, 210);
+      text-align: center;
+    }
+
+    .desplazamiento {
+      margin-left: 220px;
+      
+      
+    }
+    
+    #desplazamiento {
+      margin-left: 220px;
+      background-color:rgb(214, 210, 210);
+      text-align: center;
+      
+    }
+
+    .mensajecod {
+      margin-left: 140px;
+      margin-top: 80px;
+    }
+
+    #mensaje2 {
+      padding: 20px 50px;
+      margin-left: 170px;
+      background-color:rgb(214, 210, 210);
+      text-align: center;
+    }
+  
+  #inicio {
+    display: none;
+    margin-top: 100px;
+    margin-left: 210px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+        
+    
+  }
+
+  
