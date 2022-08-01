@@ -10,10 +10,11 @@ const cipher = {
       throw new TypeError();
     }
 
-    /*if (desplazamiento == 0 || mensaje == 0) {
+    /*if (desplazamiento == null || mensaje == []) {
       throw new TypeError();
     }*/
 
+   
     //Definición de ciclo for (inicialización, condicional, expresion final y declaración) para el recorrido del mensaje aplicando formula
     let resultado = "";
     for (let i = 0; i < mensaje.length; i++) {
@@ -46,10 +47,7 @@ const cipher = {
       throw new TypeError();
     }*/
 
-    /*if (desplazamiento == 0 || mensaje == 0) {
-      throw new TypeError();
-    }*/
-
+    
     //Definición de ciclo for (inicialización, condicional, expresion final y declaración) para el recorrido del mensaje aplicando formula
     let resultado = "";
     for (let i = 0; i < mensaje.length; i++) {

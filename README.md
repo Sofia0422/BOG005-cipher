@@ -5,7 +5,7 @@
 * [1. Qué es el Área 51?](#1-qué-es-el-área-51)
 * [2. Por qué un Centro de Mensajeria para el Área 51?](#2-por-qué-un-centro-de-mensajeria-para-el-área-51)
 * [3. Consideraciones iniciales para el diseño del Centro de Mensajeria](#3-consideraciones-iniciales-para-el-diseño-del-centro-de-mensajeria)
-* [4. Instrucciones de uso Centro de Mensajeria](#4-instrucciones-de-uso-centro-de-mensajeria)
+* [4. Instrucciones de uso para la aplicación](#4-instrucciones-de-uso-para-la-aplicación)
 
 
 ***
@@ -15,7 +15,7 @@
 El [área 51](https://cnnespanol.cnn.com/2019/09/20/que-es-el-area-51-y-por-que-causa-tanta-fascinacion-lo-que-sabemos-y-no-sabemos/)
 es una instalación de la Fuerza Aérea de EE.UU. en Groom Lake, Nevada. En 2013, la CIA desclasificó documentos que oficialmente reconocían que la zona era una base militar secreta. Fue la primera vez que el Gobierno reconocía la existencia del Área 51.
 
-[![Lo que sabemos sobre el area 51](https://i.ytimg.com/vi/H8NO-TEa5QQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=H8NO-TEa5QQ)
+[![Lo que sabemos sobre el área 51](https://i.ytimg.com/vi/H8NO-TEa5QQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=H8NO-TEa5QQ)
 
 [Link](https://www.youtube.com/watch?v=H8NO-TEa5QQ)
 
