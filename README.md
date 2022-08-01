@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Qué es el área 51](#1-que-es-el-area-51)
+* [1. Qué es el Área 51](#1-qué-es-el-área-51)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
@@ -14,12 +14,14 @@
 
 ***
 
-## 1. Qué es el área 51
+## 1. Qué es el Área 51
 
 El [área 51](https://cnnespanol.cnn.com/2019/09/20/que-es-el-area-51-y-por-que-causa-tanta-fascinacion-lo-que-sabemos-y-no-sabemos/)
 es una instalación de la Fuerza Aérea de EE.UU. en Groom Lake, Nevada. En 2013, la CIA desclasificó documentos que oficialmente reconocían que la zona era una base militar secreta. Fue la primera vez que el Gobierno reconocía la existencia del Área 51.
 
-![area-51](https://cnnespanol.cnn.com/2019/09/20/que-es-el-area-51-y-por-que-causa-tanta-fascinacion-lo-que-sabemos-y-no-sabemos/)
+[![Lo que sabemos sobre el area 51](https://i.ytimg.com/vi/H8NO-TEa5QQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=H8NO-TEa5QQ)
+
+[Link](https://www.youtube.com/watch?v=H8NO-TEa5QQ)
 
 Durante décadas, el Área 51 ha sido para muchos un lugar donde el Gobierno de EE.UU. guarda oscuros secretos sobre alienígenas y ovnis. Por lo anterior, cobra gran importancia que la información propia de las actividades desarrolladas sea tratada con altos estandares de seguridad.
 
