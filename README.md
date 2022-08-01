@@ -49,9 +49,7 @@ Durante décadas, el Área 51 ha sido para muchos un lugar donde el Gobierno de 
 
 
   * **Página para la codificación o decodificacón del mensaje**
-    El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-    interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-    te preocupes, lo aprenderás durante este proyecto.
+    En esta sección encontrarás los campos donde debes ingresar el texto/mensaje a codificar o decodificar, el número de desplazamiento asignado al usuario, botones para realizar la operación, campo de respuesta automática según necesidad y la opción de regresar al inicio si asi se requiere. 
 
     ![Alt](/Cod-Decod%20mensaje.JPG)
 
