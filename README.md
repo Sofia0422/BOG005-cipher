@@ -2,9 +2,9 @@
 
 ## Índice
 
-* [1. Qué es el Área 51](#1-qué-es-el-área-51)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [1. Qué es el Área 51?](#1-qué-es-el-área-51)
+* [2. Por qué un Centro de Mensajeria para el Área 51?](#2-por-qué-un-centro-de-mensajeria-para-el-área-51)
+* [3. Consideraciones iniciales para el diseño del Centro de Mensajeria](#3-consideraciones-iniciales-para-el-diseño-del-centro-de-mensajeria)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
@@ -23,64 +23,27 @@ es una instalación de la Fuerza Aérea de EE.UU. en Groom Lake, Nevada. En 2013
 
 [Link](https://www.youtube.com/watch?v=H8NO-TEa5QQ)
 
-Durante décadas, el Área 51 ha sido para muchos un lugar donde el Gobierno de EE.UU. guarda oscuros secretos sobre alienígenas y ovnis. Por lo anterior, cobra gran importancia que la información propia de las actividades desarrolladas sea tratada con altos estandares de seguridad.
 
 
-## 2. Resumen del proyecto
+## 2. Por qué un Centro de mensajeria para el Área 51?
 
-En este proyecto crearás una aplicación web que servirá para que el usuario
-pueda cifrar y descifrar un texto indicando un desplazamiento específico de
-caracteres (_offset_).
+Durante décadas, el Área 51 ha sido para muchos un lugar donde el Gobierno de EE.UU. guarda oscuros secretos sobre alienígenas y ovnis. Por lo anterior, cobra gran importancia que la información propia de las actividades que se desarrolladan en este lugar sea tratada, por parte de sus empleados, con altos estandares de seguridad a través de la codificación y decodificación de mensajes.
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
 
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
+## 3. Consideraciones iniciales para el diseño del Centro de Mensajeria
 
-Trabajando de manera individual aprenderás a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
+### Usuarios objetivo
+    
+    El Centro de Mensajeria será de uso exclusivo de los empleados con contratación directa con Área 51 Company y cuya clausula de confidencialidad y código de usuario se encuentren vigentes. 
 
-## 3. Objetivos de aprendizaje
+### Prototipo diseño inicial
 
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
+    Teniendo en cuenta las 3 áreas con manejo crítico de información como INVESTIGACIÓN, AVISTAMIENTOS Y PRUEBAS MILITARES, se propone un diseño que consta de dos páginas asi:
 
-### HTML
+    [![Prototipo]("img/Prototipo.jpg)]
 
-- [ ] **Uso de HTML semántico**
 
-  <details><summary>Links</summary><p>
-
-  * [HTML semántico](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
-
-### CSS
-
-- [ ] **Uso de selectores de CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [Intro a CSS](https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
-</p></details>
-
-- [ ] **Modelo de caja (box model): borde, margen, padding**
-
-  <details><summary>Links</summary><p>
-
-  * [Box Model & Display](https://curriculum.laboratoria.la/es/topics/css/01-css/02-boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
+  
 
 ### Web APIs
 
