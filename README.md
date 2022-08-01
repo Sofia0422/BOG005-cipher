@@ -33,14 +33,13 @@ Durante décadas, el Área 51 ha sido para muchos un lugar donde el Gobierno de 
 ## 3. Consideraciones iniciales para el diseño del Centro de Mensajeria
 
    * ## Usuarios objetivo
-   El Centro de Mensajeria será de uso exclusivo de los empleados con contratación directa con Área 51 Company y cuya clausula de confidencialidad y código de usuario se encuentren vigentes. 
+      El Centro de Mensajeria será de uso exclusivo de los empleados con contratación directa con Área 51 Company y cuya clausula de confidencialidad y código de usuario se encuentren vigentes. 
 
-   * ## Prototipo diseño inicia
-
-    Teniendo en cuenta las 3 áreas con manejo crítico de información como INVESTIGACIÓN, AVISTAMIENTOS Y PRUEBAS MILITARES, se propone un diseño que consta de dos páginas asi:
+   * ## Prototipo diseño inicial 
+      Teniendo en cuenta las 3 áreas con manejo crítico de información como INVESTIGACIÓN, AVISTAMIENTOS Y PRUEBAS MILITARES, se propone un diseño que consta de dos páginas asi:
 
    ![Alt](/Prototipo.jpg)
-
+   
 ## 4. Consideraciones generales
 
 * El equipo de coaches te dará un tiempo sugerido e indicaciones sobre si trabajar
