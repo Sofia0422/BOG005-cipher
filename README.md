@@ -32,23 +32,23 @@ Durante décadas, el Área 51 ha sido para muchos un lugar donde el Gobierno de 
       El Centro de Mensajeria será de uso exclusivo de los empleados con contratación directa con Área 51 Company y cuya clausula de confidencialidad y código de desplazamiento asignado se encuentren vigentes. 
 
    * ## Prototipo diseño inicial 
-      Teniendo en cuenta las 3 áreas con manejo crítico de información como **INVESTIGACIÓN**, **AVISTAMIENTOS** Y **PRUEBAS MILITARES**, se propone un diseño que consta de dos páginas asi:
+      Teniendo en cuenta las 3 áreas con manejo crítico de información como **INVESTIGACIÓN**, **AVISTAMIENTOS** Y **PRUEBAS MILITARES**, se propone un diseño que consta de dos páginas asi: 
+        * En la página 1 se encontraría la opción de seleccionar el área de interés. 
+        * En la página 2 se encontrarían las secciones para codificar y decodificar el mensaje según sea la necesidad
 
-          * En la página 1 se encontraria la opción de seleccionar el área de interes.
-          * En la página 2 se encontrarian las secciones para codificar y decodificar el mensaje según sea la necesidad.
-
+        
       ![Alt](/Prototipo.jpg)
 
       
 ## 4. Instrucciones de uso para la aplicación
 
-  * **Página de Inicio**
+  * **Página de Inicio:**
     En esta sección encontrarás un pequeño saludo de bienvenida al Centro de Mensajería seguido de un recuadro con las instrucciones o paso a paso para la selección del área de interes y del ingreso de la información necesaria para la codificación o decodificación del mensaje.
      
      ![Alt](/Pagina%20de%20inicio.jpg)
 
 
-  * **Página para la codificación o decodificacón del mensaje**
+  * **Página para la codificación o decodificacón del mensaje:**
     En esta sección encontrarás los campos donde debes ingresar el texto/mensaje a codificar o decodificar, el número de desplazamiento asignado al usuario, botones para realizar la operación, campo de respuesta automática según necesidad y la opción de regresar al inicio si asi se requiere. 
 
     ![Alt](/Cod-Decod%20mensaje.JPG)
