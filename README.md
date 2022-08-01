@@ -36,7 +36,7 @@ Durante décadas, el Área 51 ha sido para muchos un lugar donde el Gobierno de 
         * En la página 1 se encontraría la opción de seleccionar el área de interés. 
         * En la página 2 se encontrarían las secciones para codificar y decodificar el mensaje según sea la necesidad
 
-        
+
       ![Alt](/Prototipo.jpg)
 
       
@@ -52,25 +52,3 @@ Durante décadas, el Área 51 ha sido para muchos un lugar donde el Gobierno de 
     En esta sección encontrarás los campos donde debes ingresar el texto/mensaje a codificar o decodificar, el número de desplazamiento asignado al usuario, botones para realizar la operación, campo de respuesta automática según necesidad y la opción de regresar al inicio si asi se requiere. 
 
     ![Alt](/Cod-Decod%20mensaje.JPG)
-
-
-### Scripts / Archivos
-
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-* `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
-  debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
-* `src/cipher.js`: acá debes implementar el objeto `cipher`, el cual ya está
-  _exportado_ en el _boilerplate_. Este objeto (`cipher`) debe contener dos
-  métodos:
-  - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
-    que queremos cifrar.
-  - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la izquierda en el alfabeto y `string` el mensaje
-    (texto) que queremos descifrar.
-* `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
-  o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
-* `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
-  tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
