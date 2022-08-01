@@ -45,13 +45,15 @@ Durante décadas, el Área 51 ha sido para muchos un lugar donde el Gobierno de 
   * **Página de Inicio**
     En esta sección encontrarás un pequeño saludo de bienvenida al Centro de Mensajería seguido de un recuadro con las instrucciones o paso a paso para la selección del área de interes y del ingreso de la información necesaria para la codificación o decodificación del mensaje.
      
-     ![Alt](/Paginadeinicio.jpg)
+     ![Alt](/Pagina%20de%20inicio.jpg)
 
 
   * **Página para la codificación o decodificacón del mensaje**
     El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
     interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
     te preocupes, lo aprenderás durante este proyecto.
+
+    ![Alt](/Cod-Decod%20mensaje.JPG)
 
 
 ### Scripts / Archivos
