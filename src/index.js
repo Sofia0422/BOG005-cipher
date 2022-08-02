@@ -25,7 +25,7 @@ function mostrarGruposPrincipales() {
 }
 
 //Mostrar Mensaje en mayúsculas
-window.addEventListener("load", escribirMensaje, true);
+window.addEventListener("load", escribirMensaje);
 
 function escribirMensaje() {
   document.getElementById("mensaje").addEventListener("keyup", function () {
