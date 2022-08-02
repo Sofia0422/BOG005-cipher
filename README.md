@@ -43,6 +43,7 @@ Durante décadas, el Área 51 ha sido para muchos un lugar donde el Gobierno de 
 ## 4. Instrucciones de uso para la aplicación
 
     Para poder acceder a la aplicación web haz clic en el siguiente link: 
+    
   ![Centro de Mensajeria Área 51](https://sofia0422.github.io/BOG005-cipher/) 
 
   * **Página de Inicio:**
